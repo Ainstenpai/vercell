@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,400;0,500;1,300;1,400;1,500&family=Prosto+One&display=swap');
+body{
+    background-color: #d8def5;
+    margin: 0;
+}
+#formHeading{
+    background-color: #BBDEFB;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 40px 10px 40px;
+    align-items: center
+}
+a {
+    text-decoration: none;
+    color: #3757b1;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: #193581;
+}
+.textMontserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.headerButton{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #2b4a9e;
+}
+main{
+    margin: 50px 60px 50px 60px;
+    padding: 30px 30px 30px 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(117, 114, 114);
+}
+#titleVacina{
+    color: #3757b1;
+    margin: auto;
+}
+#titleForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+h2{
+    font-weight: 400;
+    color: #3757b1;
+}
+#subtitlePag2{
+    display: flex;
+    justify-content: center;
+}
+#agulha{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#formularios{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+#inputFormulario{
+    margin: auto;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+.starRed{
+    color: red;
+}
+.campos-formulario{
+    margin: 5px 0;
+    color: #2b4a9e;
+    font-weight: 500;
+}
+.inputs{
+    background-color:#e8ebfd;
+    border-radius: 5px;
+    height: 52px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+}
+#check{
+    display: flex;
+    color: #2b4a9e;
+    font-weight: 500;
+    margin: 10px 0;
+}
+#inputvalidacao{
+    background: none;
+    padding-left: 0;
+}
+#enviar{
+    background-color: #3757b1;
+    color: #FFFFFF;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+    font-family: 'Prosto One', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 45%;
+    cursor: pointer;
+}
+#enviar:hover{
+    cursor: pointer;
+    background-color: #112b75;
+}
+footer{
+    margin: 0px 60px 10px 60px;
+    padding: 0px 30px 0px 30px;
+}
+#warning{
+    display: flex;
+    color: #535355;
+}
+hr{
+    border-color: #3757b1;
+   }

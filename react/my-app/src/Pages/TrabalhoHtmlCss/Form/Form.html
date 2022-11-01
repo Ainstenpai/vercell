@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacina</title>
+    <link rel="stylesheet" href="./Form.css">
+</head>
+<body>
+    <header id="formHeading">
+        <div>
+            <a href="../Home/Home.html">
+                <img src="../src/img/pngwing.com.png" alt="medical" style="width:70px; height:70px;">
+            </a>
+        </div>
+        <div class="textMontserrat headerButton">
+            <a href="../Home/Home.html">
+                <h1>Home</h1>
+            </a>
+        </div>
+        <div class="textMontserrat headerButton">
+            <a href="../middlePage/middlePage.html">
+                <h1>Cadastro</h1>   
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="textMontserrat" id="titleForm">
+            <div class="titleVacina">
+                <h1 id="titleVacina">
+                    Formulário para cadastro de vacinação 
+                </h1>
+            </div>
+
+            <div id="agulha">
+                <img src="../src/img/agulha.png" alt="agulha" style="width:30px; height: 30px;" />
+            </div>
+        </div>
+        <div class="textMontserrat" id="subtitlePag2">
+            <h2>
+                Informações pessoais
+            </h2>
+        </div>
+        <div id="formularios">
+            <form id="inputFormulario">
+                <p id="name" class="textMontserrat campos-formulario">Nome<span class="starRed">*</span></p>
+                <input type="text" id="inputName" class="inputs" required />
+
+                <p id="number" class="textMontserrat campos-formulario">Idade<span class="starRed">*</span></p>
+                <input type="number" id="inputNumber" class="inputs" required/>
+
+                <p id="numberCPF" class="textMontserrat campos-formulario">CPF<span class="starRed">*</span></p>
+                <input type="number" id="inputNumber2" class="inputs" required/>
+
+                <p id="Email" class="textMontserrat campos-formulario">E-mail<span class="starRed">*</span></p>
+                <input type="Email" id="inputEmail" class="inputs" required/>
+
+                <p id="carteira" class="textMontserrat campos-formulario">Carteira de vacinação (frente e verso)<span class="starRed">*</span></p>
+                <input type="file" id="inputvalidacao" class="inputs" multiple required/>
+                
+                <p id="validacao" class="textMontserrat campos-formulario">Estado<span class="starRed">*</span></p>
+                <select id="estado" name="estado" class="inputs">
+                    <option selected disabled>Selecione seu estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <div id="check">
+                    <input type="checkbox" required/>
+                    <p class="textMontserrat">&nbsp;Concordo com os termos...</p>
+                </div>
+                <button id="enviar" formaction="../AposForm/AposForm.Html"> ENVIAR </button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <hr style="width:90%;">
+        </div>
+        <div id="warning">
+            <p class="textMontserrat">
+                *Proteja a si mesmo e as pessoas ao seu redor conhecendo os fatos e tomando as precauções apropriadas. 
+                Siga os conselhos da autoridade local de saúde.*
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
